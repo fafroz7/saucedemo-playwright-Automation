@@ -24,19 +24,14 @@ The project is structured to be **easily cloned and executed** on any machine.
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/fafroz7/sauce-demo-playwright.git
-cd sauce-demo-playwright
+git clone https://github.com/fafroz7/saucedemo-playwright-Automation.git
+cd saucedemo-playwright-Automation
 
-
-# Install project dependencies
+#  Install Node.js project dependencies
 npm install
 
-# Install Playwright browsers
+#  Install Playwright browsers
 npx playwright install
 
-#Run the tests
-npx playwright test
-
-
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+# Run the tests (headed mode to see the browser)
+npx playwright test --headed
